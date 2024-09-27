@@ -1,0 +1,40 @@
+C:\Users\dimit\Downloads\Computer Vision X-RAY Broken Bones\archive-x-ray\bone fracture detection.v4-v4.yolov8
+|
+|--\train   
+|      |--\images 
+|      |     distal-humeral-fractures-2-_JPEG.rf.39ba3f53047ecb4064613850a1c76fc1.jpg
+|      |     distal-humeral-fractures-2-_JPEG.rf.525ce876785d0fd798ec3af1593e5bc1.jpg
+|      |     distal-humeral-fractures-2-_JPEG.rf.f9442db05ec473187c60870d407c9e8f.jpg
+|      |     elbow-dislocation-with-coronoid-process-fracture_jpg.rf.75b67d2e40fe637ba2838e1283f970c5.jpg
+|      |     elbow-dislocation-with-coronoid-process-fracture_jpg.rf.76486fb6ffe2b6c7da0e4922e58a088f.jpg
+|      |     elbow-dislocation-with-coronoid-process-fracture_jpg.rf.234153519323ba2b9aa2e603b0a43771.jpg
+|      |     fracture-of-the-humeral-capitellum-milch-type-1-1-1-_jpg.rf.4c16d0817782b56497b9f18bca2b0fdd.jpg
+|      |     fracture-of-the-humeral-capitellum-milch-type-1-1-1-_jpg.rf.8b022b79c884d0b37d923a3c961591c6.jpg
+|      |     fracture-of-the-humeral-capitellum-milch-type-1-1-1-_jpg.rf.f40a3ca2a57d511a40839bd1ca615d54.jpg
+|      |     image1_0_png.rf.208b9fc171409973fd0f9af79cdcfead.jpg
+|      |     ...
+|      |--\labels
+|            distal-humeral-fractures-2-_JPEG.rf.39ba3f53047ecb4064613850a1c76fc1.txt
+|            distal-humeral-fractures-2-_JPEG.rf.525ce876785d0fd798ec3af1593e5bc1.txt
+|            distal-humeral-fractures-2-_JPEG.rf.f9442db05ec473187c60870d407c9e8f.txt
+|            elbow-dislocation-with-coronoid-process-fracture_jpg.rf.75b67d2e40fe637ba2838e1283f970c5.txt
+|            elbow-dislocation-with-coronoid-process-fracture_jpg.rf.76486fb6ffe2b6c7da0e4922e58a088f.txt
+|            elbow-dislocation-with-coronoid-process-fracture_jpg.rf.234153519323ba2b9aa2e603b0a43771.txt
+|            fracture-of-the-humeral-capitellum-milch-type-1-1-1-_jpg.rf.4c16d0817782b56497b9f18bca2b0fdd.txt
+|            fracture-of-the-humeral-capitellum-milch-type-1-1-1-_jpg.rf.8b022b79c884d0b37d923a3c961591c6.txt
+|            fracture-of-the-humeral-capitellum-milch-type-1-1-1-_jpg.rf.f40a3ca2a57d511a40839bd1ca615d54.txt
+|            image1_0_png.rf.208b9fc171409973fd0f9af79cdcfead.txt
+|            ...                
+|--\valid
+|      |--\images 
+|      |     (Same format)...
+|      |--\labels
+|            (Same format)...     
+|--\test
+|      |--\images 
+|      |     (Same format)...
+|      |--\labels
+|      |     (Same format)...          
+|--data.yaml
+|--README.dataset.txt
+                                                                        
