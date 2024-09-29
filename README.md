@@ -18,13 +18,10 @@ The model was trained on the [Bone Fracture Detection Computer Vision Dataset](h
 
 ## Project Structure
 
-1. **Data Processing**: Scripts for medical image preprocessing and augmentation
-2. **Model Training**: Implementation of the deep learning model and training pipeline
-3. **Model Evaluation**: Scripts for rigorous testing and performance evaluation
-4. **Web Application**: User interface for uploading X-rays and viewing results
-5. **API**: Backend API for handling image processing and model inference
-6. **Documentation**: Comprehensive documentation on model architecture, training process, and usage guidelines
-
+1. **App v1.0**: Full aplication
+2. **Archive-x-ray**: 4K x-ray image dataset
+3. **Testing-images**: Script to test the model on it's own with test images
+4. **YOLOv8l_quick_run**: YOLOv8l model with documentation
 ## Model Performance
 
 The YOLOv8 model achieved the following performance metrics on the test set:
