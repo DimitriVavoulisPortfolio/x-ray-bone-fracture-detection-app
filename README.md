@@ -21,7 +21,10 @@ The model was trained on the [Bone Fracture Detection Computer Vision Dataset](h
 1. **App v1.0**: Full aplication
 2. **Archive-x-ray**: 4K x-ray image dataset
 3. **Testing-images**: Script to test the model on it's own with test images
-4. **YOLOv8l_quick_run**: YOLOv8l model with documentation
+4. **YOLOv8l_quick_run**: YOLOv8l model with documentation about the model when tested
+5. **MODEL.md**: 
+6. **PROCESS.md**
+7. **train_yolov8_bone_fracture_detector v2.0.py**: Script to make the model including sorting of the dataset
 ## Model Performance
 
 The YOLOv8 model achieved the following performance metrics on the test set:
