@@ -1,6 +1,8 @@
-# YOLOv8 Bone Fracture Detection Model
+# X-Ray Bone Fracture Detection App
 
-This is an X-Ray Bone Fracture Detection App to assist medical professionals with the fast-forwarding of the diagnosis process, it runs on the user's device 
+This is an X-Ray Bone Fracture Detection App to assist medical professionals with the fast-forwarding of the diagnosis process, it runs on the user's device with a YOLOv8l model.
+
+DISCLAIMER: This is a functional prototype
 
 ## Model Architecture
 
