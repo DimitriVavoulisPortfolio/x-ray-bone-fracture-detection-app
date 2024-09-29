@@ -37,7 +37,7 @@ Data preprocessing steps:
 The model was trained for 300 epochs with the following key parameters:
 - Learning rate: 0.002 with cosine annealing
 - Batch size: 8
-- Image size: 512x512
+- Image size: 512x512 (Prototype, higher resolution as part of the next version)
 - Optimizer: SGD with momentum (0.937) and weight decay (0.0005)
 
 Training was performed on a NVIDIA GeForce RTX 2070 Super GPU, taking approximately 4.5 hours.
@@ -113,10 +113,11 @@ To further improve the model for real-world deployment:
 
 ## Conclusion
 
-This project demonstrates proficiency in:
-- Applying state-of-the-art deep learning models to real-world medical problems
-- Handling medical imaging data and associated challenges
-- Balancing model performance with practical clinical needs
-- Understanding the broader context and potential impact of AI in healthcare
+This project demonstrates the potential of applying advanced deep learning techniques to medical imaging challenges. The YOLOv8l-based model developed for bone fracture detection shows promising results, with a peak mAP50 of 0.371 and varying performance across different fracture types.
 
-The developed YOLOv8l-based model shows promise for enhancing fracture detection workflows, potentially improving patient care through faster and more consistent diagnoses. The combination of technical accuracy and practical applicability makes this project a strong foundation for further research and development in AI-assisted medical imaging.
+Key outcomes of this project include:
+
+1. Successful adaptation of a state-of-the-art object detection model (YOLOv8l) for a specialized medical imaging task.
+2. Comprehensive analysis of model performance, including per-class metrics and bounding box distribution.
+3. Identification of practical applications in clinical settings, from emergency triage to rural healthcare support.
+4. Recognition of current limitations and clear directions for future improvements.
