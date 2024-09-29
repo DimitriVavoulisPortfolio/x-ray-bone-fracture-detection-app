@@ -4,6 +4,8 @@
 
 This project is an advanced machine learning application designed to detect bone fractures in X-ray images with milisecond response time. It utilizes state-of-the-art computer vision techniques and deep learning models to analyze X-ray images and identify potential fractures, serving as a diagnostic aid for medical professionals.
 
+![App Screenshot](/App Screenshot.PNG)
+
 ### Key Features
 
 - YOLOv8l model for bone fracture detection
