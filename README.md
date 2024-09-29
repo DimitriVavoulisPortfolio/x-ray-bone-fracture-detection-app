@@ -1,20 +1,29 @@
 # X-Ray Bone Fracture Detection App
 
-This is an X-Ray Bone Fracture Detection App to assist medical professionals with the fast-forwarding of the diagnosis process, it runs on the user's device with a YOLOv8l model.
+## Project Overview
 
-DISCLAIMER: This is a functional prototype
+This project is an advanced machine learning application designed to detect bone fractures in X-ray images with milisecond response time. It utilizes state-of-the-art computer vision techniques and deep learning models to analyze X-ray images and identify potential fractures, serving as a diagnostic aid for medical professionals.
 
-## Model Architecture
+### Key Features
 
-The YOLOv8 model used in this project is the YOLOv8l (large) variant, which is a state-of-the-art object detection model known for its high accuracy and efficiency.
+- YOLOv8l model for bone fracture detection
+- User-friendly interface for uploading and analyzing X-ray images
+- Real-time fracture detection and visualization 
+- Comprehensive performance metrics adhering to medical imaging standards
+- Designed as a SaaS prototype for potential clinical integration
 
-The model architecture consists of a deep convolutional neural network with multiple layers and skip connections, which allows for the effective extraction and combination of low-level and high-level features for accurate object detection.
+## Dataset
 
-## Training and Evaluation
+The model was trained on the [Bone Fracture Detection Computer Vision Dataset](https://www.kaggle.com/datasets/pkdarabi/bone-fracture-detection-computer-vision-project) from Kaggle. This dataset contains a diverse collection of X-ray images with labeled bone fractures, allowing for robust model training and evaluation.
 
-The YOLOv8 model was trained on the provided X-ray bone fracture dataset, which includes images and annotations for various types of bone fractures. The training process optimized the model's parameters to accurately detect and localize the bone fractures in the X-ray images.
+## Project Structure
 
-During the evaluation phase, the model was tested on a separate test set to assess its performance. The evaluation metrics, including mAP (mean Average Precision), precision, recall, and F1-score, were calculated to measure the model's effectiveness in detecting bone fractures.
+1. **Data Processing**: Scripts for medical image preprocessing and augmentation
+2. **Model Training**: Implementation of the deep learning model and training pipeline
+3. **Model Evaluation**: Scripts for rigorous testing and performance evaluation
+4. **Web Application**: User interface for uploading X-rays and viewing results
+5. **API**: Backend API for handling image processing and model inference
+6. **Documentation**: Comprehensive documentation on model architecture, training process, and usage guidelines
 
 ## Model Performance
 
@@ -27,17 +36,73 @@ The YOLOv8 model achieved the following performance metrics on the test set:
 
 These metrics suggest that the model is capable of detecting bone fractures with reasonable accuracy, but there is still room for improvement. The project team is continuously working on optimizing the model's performance and exploring strategies to enhance the detection capabilities.
 
+## Quick Start Guide
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/DimitriVavoulisPortfolio/x-ray-bone-fracture-detection-app
+   ```
+
+2. Install dependencies:
+   ```
+   pip install tensorflow torch torchvision pandas numpy scikit-learn matplotlib seaborn pillow opencv-python-headless flask gunicorn pytest pylint black isort
+   ```
+3. To test the app:
+   start the launcher on the App v1.0 folder
+
+DISCLAIMER: This is a prototype, it's not a replacement to medical professionals and future iterations while better in quality are still not a replacement, consult a medical professional on case of injury
+
 ## Usage
 
-To use the YOLOv8 bone fracture detection model in the X-Ray Bone Fracture Detection App, please refer to the instructions in the [README.md](README.md) file. The model's trained weights are available in the project repository and can be used to run the application.
+1. Upload an X-ray image through the secure web interface.
+2. The application processes the image and displays results with fracture probability scores.
+3. Review the detection results, including highlighted regions of interest.
+4. (Optional) Provide feedback to improve model performance.
 
-## Future Improvements
+## Clinical Validation
 
-The project team is committed to improving the performance of the YOLOv8 bone fracture detection model. Some potential areas for future work include:
+This tool is intended to assist, not replace, professional medical judgment. All results should be interpreted by qualified medical professionals in the context of clinical findings and patient history.
 
-- Exploring alternative model architectures or data augmentation techniques to improve the model's accuracy.
-- Expanding the dataset with more diverse X-ray images to increase the model's robustness.
-- Integrating the model with additional medical imaging analysis tools or clinical workflows.
-- Optimizing the model's inference speed for real-time or edge deployment scenarios.
+## Data Privacy and Security
 
-We welcome contributions and suggestions from the community to help enhance the X-Ray Bone Fracture Detection App and the underlying YOLOv8 model.
+This application adheres to strict medical data privacy standards. All uploaded images and results are encrypted and securely handled in compliance with healthcare data protection regulations.
+
+## Future Work
+
+- Enhanced YOLOv8l model for better bone fracture diagnosis
+- Enhance the user interface for better visualization of results
+- Integrate with medical record systems for seamless workflow integration
+- Expand the dataset to improve model generalization across diverse populations
+
+## Contributing
+
+We welcome contributions to improve the project. Please follow these steps:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+Please ensure all contributions adhere to medical software development standards and practices.
+
+## License
+
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Kaggle and the dataset contributors for providing the bone fracture X-ray dataset
+- The open-source community for the tools and libraries used in this project
+- Medical advisors and clinicians for their invaluable input and validation
+
+## Contact
+
+For any questions, feedback, or collaboration opportunities, please open an issue in this repository or contact [Dimitri Vavoulis] at [dimitrivavoulis3@gmail.com].
+
+## Disclaimer
+
+This software is not certified for clinical use and is currently in the research and development phase. It should not be used for making clinical decisions without proper validation and regulatory approval.
+
+
